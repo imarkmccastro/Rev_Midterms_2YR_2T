@@ -1,4 +1,5 @@
 // SPA basics: simple hash-based routing.
+// Note: Lazy loading and route guards do not prevent page reloads; SPA routing does.
 // Walkthrough:
 // 1) Map URL hashes to views.
 // 2) Render based on the current hash.

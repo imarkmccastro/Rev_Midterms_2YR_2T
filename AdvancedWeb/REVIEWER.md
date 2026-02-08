@@ -156,4 +156,6 @@ Sample file: [topics/state_management.js](topics/state_management.js)
 ## SPAs
 Client-side routing and component-based page updates.
 
+Note: Lazy loading and route guards do not prevent full page reloads. SPA routing (History API or hash routing) is what avoids reloads during navigation.
+
 Sample file: [topics/spa_basics.js](topics/spa_basics.js)

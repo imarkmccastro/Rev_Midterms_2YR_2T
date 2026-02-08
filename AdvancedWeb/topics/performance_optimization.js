@@ -1,4 +1,5 @@
 // Performance optimization examples.
+// Note: Lazy loading improves load time, but SPA routing prevents full reloads.
 // Walkthrough:
 // 1) Lazy-load images and decode off the main thread.
 // 2) Show a long-lived cache header for static assets.

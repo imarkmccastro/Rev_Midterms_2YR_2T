@@ -1,4 +1,5 @@
 // Modern web shifts: AI-first, edge-native, real-time features.
+// Note: Route guards control access, but SPA routing avoids full reloads.
 // Explanation: Real-time updates often use websockets; here we simulate updates.
 // Walkthrough:
 // 1) Track a counter in memory.
