@@ -1,4 +1,8 @@
 // State management: share data across components.
+// Walkthrough:
+// 1) Create a store with state and listeners.
+// 2) Update state and notify subscribers.
+// 3) Log state changes.
 const store = {
     state: { count: 0 },
     listeners: [],

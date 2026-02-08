@@ -1,4 +1,9 @@
 /* Advanced selectors for precise targeting. */
+/* Walkthrough:
+    1) Target the second list item.
+    2) Dim items that are not active.
+    3) Highlight cards that contain images.
+    4) Add a NEW label with a pseudo-element. */
 
 .list li:nth-child(2) {
     color: #2563eb;

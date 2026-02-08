@@ -1,4 +1,8 @@
 /* Flexbox for one-dimensional layout. */
+/* Walkthrough:
+    1) Create a flex row container.
+    2) Space items and align them.
+    3) Make children share width. */
 
 .flex-row {
     display: flex;

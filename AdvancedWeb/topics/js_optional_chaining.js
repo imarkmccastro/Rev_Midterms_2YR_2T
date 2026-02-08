@@ -1,4 +1,8 @@
 // Optional chaining and nullish coalescing.
+// Walkthrough:
+// 1) Create a nested object.
+// 2) Safely read nested values.
+// 3) Fall back to defaults when missing.
 const user = { profile: { city: "Manila" } };
 
 const city = user?.profile?.city ?? "Guest";

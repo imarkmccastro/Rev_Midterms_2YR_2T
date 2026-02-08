@@ -1,4 +1,8 @@
 // Promises and async/await.
+// Walkthrough:
+// 1) Create a helper that resolves after a delay.
+// 2) Await sequential values.
+// 3) Show race, allSettled, and any.
 function wait(ms, value) {
     return new Promise(resolve => setTimeout(() => resolve(value), ms));
 }

@@ -1,4 +1,8 @@
 /* CSS Grid for two-dimensional layout. */
+/* Walkthrough:
+    1) Define a 3-column grid.
+    2) Add consistent gaps.
+    3) Style grid items. */
 
 .grid {
     display: grid;

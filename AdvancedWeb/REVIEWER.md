@@ -29,6 +29,33 @@ Readable notes with sample code. Each topic has its own file in topics/.
 
 ---
 
+## Walkthrough Map
+Short, line-by-line notes are also embedded inside each topic file as `Walkthrough` comments. This map mirrors those notes.
+
+### JS
+1. [topics/modern_web_shifts.js](topics/modern_web_shifts.js): counter, timer updates, stop condition.
+2. [topics/js_optional_chaining.js](topics/js_optional_chaining.js): nested object, safe reads, defaults.
+3. [topics/js_destructuring_spread.js](topics/js_destructuring_spread.js): destructure, spread copy, logs.
+4. [topics/js_async_promises.js](topics/js_async_promises.js): delay helper, awaits, Promise helpers.
+5. [topics/component_driven.js](topics/component_driven.js): build button HTML, choose class, log.
+6. [topics/tooling_zero_config.js](topics/tooling_zero_config.js): list features, print list.
+7. [topics/performance_optimization.js](topics/performance_optimization.js): lazy image, cache header, log.
+8. [topics/react_basics.js](topics/react_basics.js): React snippet string, print.
+9. [topics/vue_basics.js](topics/vue_basics.js): Vue template string, print.
+10. [topics/angular_basics.js](topics/angular_basics.js): Angular component snippet, print.
+11. [topics/state_management.js](topics/state_management.js): store, subscribe, update.
+12. [topics/spa_basics.js](topics/spa_basics.js): hash routes, render, re-render.
+
+### HTML/CSS
+1. [topics/html_features.html](topics/html_features.html): HTML5 doc, semantic layout, media, validation.
+2. [topics/mobile_first.css](topics/mobile_first.css): base styles, card, scale at breakpoints.
+3. [topics/responsive_design.css](topics/responsive_design.css): fluid media, clamp text, touch targets, layout switches.
+4. [topics/css_flexbox.css](topics/css_flexbox.css): flex row, align/space, equal widths.
+5. [topics/css_grid.css](topics/css_grid.css): 3-column grid, gaps, item styles.
+6. [topics/css_variables.css](topics/css_variables.css): root variables, button use, dark override.
+7. [topics/css_advanced_selectors.css](topics/css_advanced_selectors.css): :nth-child, :not, :has, ::before.
+8. [topics/css_animations.css](topics/css_animations.css): transitions, keyframes, animation.
+
 ## Modern Web Shifts
 AI-first, edge-native architectures, and real-time features.
 

@@ -1,4 +1,8 @@
 // Destructuring and spread operators.
+// Walkthrough:
+// 1) Extract values from arrays and objects.
+// 2) Copy and extend collections with spread.
+// 3) Log the results.
 const nums = [10, 20, 30];
 const [first, , third] = nums;
 

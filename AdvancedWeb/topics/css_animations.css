@@ -1,4 +1,8 @@
 /* Transitions and keyframe animations. */
+/* Walkthrough:
+    1) Define hover transitions on a button.
+    2) Create a pulse keyframe animation.
+    3) Apply the animation to a badge. */
 
 .button {
     transition: transform 200ms ease, background 200ms ease;
