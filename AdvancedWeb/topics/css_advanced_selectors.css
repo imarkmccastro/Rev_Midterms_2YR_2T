@@ -1,0 +1,21 @@
+/* Advanced selectors for precise targeting. */
+
+.list li:nth-child(2) {
+    color: #2563eb;
+}
+
+.list li:not(.active) {
+    opacity: 0.7;
+}
+
+.card:has(img) {
+    border: 2px solid #16a34a;
+}
+
+.card::before {
+    content: "NEW";
+    margin-right: 0.5rem;
+    color: #dc2626;
+}
+
+/* Output: Specific items styled without extra classes. */

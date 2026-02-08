@@ -1,0 +1,31 @@
+/* Responsive design techniques. */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+button {
+    min-width: 44px;
+    min-height: 44px;
+}
+
+@media (max-width: 640px) {
+    .layout {
+        display: block;
+    }
+}
+
+@media (min-width: 641px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+    }
+}
+
+/* Output: Images scale, typography adjusts, layout changes by screen size. */

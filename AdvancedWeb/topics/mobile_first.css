@@ -1,0 +1,27 @@
+/* Mobile-first: base styles for small screens, then scale up. */
+
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    .card {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 900px;
+    }
+}
+
+/* Output: The card grows wider on tablets and desktops. */

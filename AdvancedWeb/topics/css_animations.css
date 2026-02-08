@@ -1,0 +1,22 @@
+/* Transitions and keyframe animations. */
+
+.button {
+    transition: transform 200ms ease, background 200ms ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background: #2563eb;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.badge {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Output: Button animates on hover, badge pulses continuously. */

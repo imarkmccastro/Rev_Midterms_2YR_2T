@@ -1,0 +1,14 @@
+/* CSS Grid for two-dimensional layout. */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.grid > div {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+/* Output: A 3-column grid with gaps. */

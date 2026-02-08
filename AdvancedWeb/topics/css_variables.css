@@ -1,0 +1,21 @@
+/* CSS custom properties (variables). */
+
+:root {
+    --brand: #1e40af;
+    --gap: 12px;
+}
+
+.button {
+    background: var(--brand);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --brand: #60a5fa;
+    }
+}
+
+/* Output: The button color changes in dark mode. */

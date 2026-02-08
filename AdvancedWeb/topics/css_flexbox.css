@@ -1,0 +1,14 @@
+/* Flexbox for one-dimensional layout. */
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-row > div {
+    flex: 1;
+}
+
+/* Output: Items line up in a row with equal width and spacing. */
