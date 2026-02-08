@@ -2,7 +2,7 @@
 // Walkthrough:
 // 1) Create a store with state and listeners.
 // 2) Update state and notify subscribers.
-// 3) Log state changes.
+// 3) Log state changes to show shared data updates.
 const store = {
     state: { count: 0 },
     listeners: [],

@@ -1,8 +1,8 @@
 // SPA basics: simple hash-based routing.
 // Walkthrough:
-// 1) Map hashes to views.
+// 1) Map URL hashes to views.
 // 2) Render based on the current hash.
-// 3) Re-render on hash changes.
+// 3) Re-render on hash changes with the hashchange event.
 const routes = {
     "#home": "Home page",
     "#about": "About page",

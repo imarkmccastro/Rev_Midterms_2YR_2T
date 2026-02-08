@@ -1,6 +1,6 @@
 // Vue basics: template syntax and events.
 // Walkthrough:
-// 1) Store a Vue template as a string.
+// 1) Store a Vue template as a string (not executed here).
 // 2) Show interpolation and click handling.
 // 3) Print the snippet.
 const vueExample = `

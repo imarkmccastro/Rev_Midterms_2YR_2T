@@ -1,6 +1,6 @@
 // Angular basics: component decorator and template.
 // Walkthrough:
-// 1) Store a component snippet as a string.
+// 1) Store a component snippet as a string (not executed here).
 // 2) Show selector, template, and class.
 // 3) Print the snippet.
 const angularExample = `

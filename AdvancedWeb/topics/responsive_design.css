@@ -1,6 +1,6 @@
 /* Responsive design techniques. */
 /* Walkthrough:
-    1) Make images fluid.
+    1) Make images fluid so they do not overflow.
     2) Clamp heading size for scaling.
     3) Ensure touch-friendly buttons.
     4) Switch layouts by breakpoint. */

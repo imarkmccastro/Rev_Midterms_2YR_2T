@@ -1,6 +1,6 @@
 // React basics: component, JSX, props, state.
 // Walkthrough:
-// 1) Store a React snippet as a string.
+// 1) Store a React snippet as a string (not executed here).
 // 2) Show a component and JSX usage.
 // 3) Print the snippet.
 const componentExample = `

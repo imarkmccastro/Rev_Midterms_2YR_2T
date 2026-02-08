@@ -34,9 +34,9 @@ Short, line-by-line notes are also embedded inside each topic file as `Walkthrou
 
 ### JS
 1. [topics/modern_web_shifts.js](topics/modern_web_shifts.js): counter, timer updates, stop condition.
-2. [topics/js_optional_chaining.js](topics/js_optional_chaining.js): nested object, safe reads, defaults.
+2. [topics/js_optional_chaining.js](topics/js_optional_chaining.js): nested object, safe reads with `?.`, defaults with `??`.
 3. [topics/js_destructuring_spread.js](topics/js_destructuring_spread.js): destructure, spread copy, logs.
-4. [topics/js_async_promises.js](topics/js_async_promises.js): delay helper, awaits, Promise helpers.
+4. [topics/js_async_promises.js](topics/js_async_promises.js): delay helper, async/await pauses for Promises, Promise helpers.
 5. [topics/component_driven.js](topics/component_driven.js): build button HTML, choose class, log.
 6. [topics/tooling_zero_config.js](topics/tooling_zero_config.js): list features, print list.
 7. [topics/performance_optimization.js](topics/performance_optimization.js): lazy image, cache header, log.

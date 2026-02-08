@@ -2,8 +2,8 @@
 // Explanation: Real-time updates often use websockets; here we simulate updates.
 // Walkthrough:
 // 1) Track a counter in memory.
-// 2) Use a timer to simulate real-time updates.
-// 3) Stop after a few updates.
+// 2) Use setInterval to run every second (real-time updates).
+// 3) Stop with clearInterval after a few updates.
 let likes = 0;
 const timer = setInterval(() => {
     likes += 1;

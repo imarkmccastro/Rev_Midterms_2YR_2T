@@ -1,8 +1,8 @@
 // Promises and async/await.
 // Walkthrough:
 // 1) Create a helper that resolves after a delay.
-// 2) Await sequential values.
-// 3) Show race, allSettled, and any.
+// 2) Use async/await to pause until a Promise resolves (reads like sync code).
+// 3) Show Promise helpers: race (first wins), allSettled (all results), any (first success).
 function wait(ms, value) {
     return new Promise(resolve => setTimeout(() => resolve(value), ms));
 }

@@ -2,7 +2,7 @@
 /* Walkthrough:
     1) Define theme variables in :root.
     2) Use variables in a button style.
-    3) Override variables for dark mode. */
+    3) Override variables for dark mode via media query. */
 
 :root {
     --brand: #1e40af;
