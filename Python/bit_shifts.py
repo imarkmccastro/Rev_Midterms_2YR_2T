@@ -30,4 +30,19 @@ print(x >> y)  # Right shift by 1: 10 (binary) = 2 (decimal)
 # 10
 # 2
 
+# other integer to binary samples
+num = 18
+
+# 18 ÷ 2 = 9 remainder 0
+# 9 ÷ 2 = 4 remainder 1
+# 4 ÷ 2 = 2 remainder 0
+# 2 ÷ 2 = 1 remainder 0
+# 1 ÷ 2 = 0 remainder 1
+# Read upward: 10010 → bin(18) gives 0b10010.
+
+print(bin(num))  # Output: 0b10010
+num2 = 7
+
+print(bin(num2))  # Output: 0b111
+
 
